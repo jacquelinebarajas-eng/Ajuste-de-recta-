@@ -23,7 +23,7 @@ sum_x2 = np.sum(x ** 2)
 m = (n * sum_xy - sum_x * sum_y) / (n * sum_x2 - sum_x ** 2)
 b = (sum_y - m * sum_x) / n
 
-# Predicción y coeficiente R²
+# Predicción
 y_pred = m * x + b
 
 print(f"\nEcuación ajustada: y = {m:.4f}x + {b:.4f}")
